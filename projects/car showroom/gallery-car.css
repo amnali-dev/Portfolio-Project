@@ -1,0 +1,191 @@
+body{
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+}
+.home:hover{
+    background-color:transparent;
+    color:  #ff0f0f ;
+    font-weight: 250px;
+    border-bottom: 2px solid  #ff0f0f;
+    text-align: center;
+}
+.services:hover{
+    background-color:transparent;
+    color:  #ff0f0f ;
+    font-weight: 250px;
+    border-bottom: 2px solid   #ff0f0f;
+    text-align: center;
+}
+.about:hover{
+      background-color:transparent;
+    color:  #ff0f0f;
+    font-weight: 250px;
+    border-bottom: 2px solid  #ff0f0f;
+    text-align: center;
+}
+.gallery:hover{
+      background-color:transparent;
+    color:  #ff0f0f;
+    font-weight: 250px;
+    border-bottom: 2px solid  #ff0f0f;
+    text-align: center;
+}
+.contact:hover{
+     background-color:transparent;
+    color:  #ff0f0f;
+    font-weight: 250px;
+    border-bottom: 2px solid  #ff0f0f;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 35px;
+}
+.home{
+    color: rgb(189, 190, 194);
+    margin-right: 20px;
+     padding-top: 4px;
+    padding-left: 2px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.services{
+    color: rgb(189, 190, 194);
+        margin-right: 20px;
+     padding-top: 4px;
+    padding-left: 2px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+     text-decoration: none;
+      font-size: 20px;
+}
+.about{
+    /* color: rgb(230, 235, 245); */
+    color: rgb(189, 190, 194);
+
+        margin-right: 20px;
+     padding-top: 4px;
+    padding-left: 2px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+     text-decoration: none;
+      font-size: 20px;
+}
+.gallery{
+    /* color: rgb(230, 235, 245); */
+    color: rgb(189, 190, 194);
+
+        margin-right: 20px;
+     padding-top: 4px;
+    padding-left: 2px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+     text-decoration: none;
+      font-size: 20px;
+}
+.contact{
+    color:rgb(189, 190, 194);
+        margin-right: 20px;
+     padding-top: 4px;
+    padding-left: 2px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+     text-decoration: none;
+      font-size: 20px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     background: opacity(0.1),rgba(163, 163, 163, 0.842);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    height: 60px;
+}
+li{
+    list-style: none;
+}
+.abc{
+    background-color: rgb(235, 57, 57);
+    color: azure;
+    text-decoration: none;
+    padding-left:12px ;
+    padding-right:12px ;
+    padding-top:8px ;
+    padding-bottom:8px ;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight:600;
+}
+button{
+    background: transparent;
+    border: none;
+    margin-right: 45px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+button:hover{
+     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+     transform: translateY(-3px);
+}
+#oop{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 30px;
+    color: #ff0f0f;
+}
+#stp{
+    width: 380px;
+    height: 230px;
+    border-radius: 8px;
+    position: relative;
+    left: 4px;
+    top: 5px;
+}
+#ayz{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;    
+}
+
+.big-container{
+    background-color: rgb(173, 12, 1);
+    width: 390px;
+    height: 350px;
+    border-radius: 10px;
+    border: 2px solid rgb(252, 75, 75);
+    display: inline-block;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+.big-container:hover{
+    filter: brightness(140%);
+    transform: translate3d(0, -10px, 0);
+}
+#card-heading{
+    color:  white;
+    position: relative;
+    left: 6px;
+    font-size: 25px;
+    margin: 0px;
+}
+#card-parah{
+    color: rgb(209, 201, 201);
+    position: relative;
+    left: 6px;
+    margin: 0px;
+}
+section{
+    display: flex;
+    margin-right: 55px;
+}
